@@ -1,17 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
     <meta charset="UTF-8">
-    <title>Page Title</title>
+    <title>Kito Ice Cream</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="">
 
     <style>
-        
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        h1 {
+            margin: 15px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        img {
+            width: 400px;
+            height: 400px;
+        }
+
+        #hr-two {
+            width: 50%;
+        }
+
+        .container {
+            height: 85vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        ul {
+            list-style-type: disc;
+            text-align: left;
+            padding-left: 50px;
+        }
+
+        .list {
+            margin: 20px;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
     </style>
     <body>
 
-        <h1>Keto Pizza</h1>
+        <h1>Ice Cream</h1>
+        <hr>
 
+        <div class="container">
+            <section>
+                <img src="./ice-cream.jpg" alt="a pizza image">
+            </section>
+            <section>
+                <div class="list">
+                    <h2>RECIPES</h2>
+                    <ul>
+                        <li>1/2 of almond flour</li>
+                        <li>1/2 teaspoon of salt</li>
+                        <li>2 teaspoon of cream cheese, softened</li>
+                        <li>1 egg, beaten, at room temp</li>
+                        <li>Etc.</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="list">
+                    <h2>DIRECTIONS</h2>
+                    <ul>
+                        <li>Preheat the oven</li>
+                        <li>Place all cheese in microwave</li>
+                        <li>Construct and place the dough in its proper place</li>
+                        <li>Bake and waite</li>
+                        <li>Etc.</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
         <script src=""></script>
     </body>
 </html>
