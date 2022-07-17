@@ -21,6 +21,19 @@ hr {
     width: 100%;
 }
 
-.recipes {
-    font-size: 25px;
+a {
+    font-size: 30px;
+    color: #fff;
+}
+
+.recipe {
+    margin: 10px;
+}
+
+#container {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
